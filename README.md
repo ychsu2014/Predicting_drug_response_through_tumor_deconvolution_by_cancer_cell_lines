@@ -4,22 +4,20 @@ Large-scale cancer drug sensitivity data have become available for a collection 
 
 ## Datasets used in the study
 Single cell RNA (scRNA) data of cell lines: http://singlecell.broadinstitute.org/single_cell/study/SCP542/pan-cancer-cell-line-heterogeneity \
-The Cancer Genome Atlas (TCGA) RNA, somatic mutation, and phenotypic data：https://xenabrowser.net/datapages/ \
-Cancer Cell Line Encyclopedia (CCLE) RNA data: https://depmap.org/portal/ (2022Q2 version) \
-Profiling Relative Inhibition Simultaneously in Mixtures (PRISM) drug screening dataset: https://depmap.org/repurposing/
+TCGA data：https://xenabrowser.net/datapages/ \
+CCLE data: https://depmap.org/portal/ (2022Q2 version) \
+PRISM drug screening dataset: https://depmap.org/repurposing/
 
-## Codes description
-1-1 ~ 2-5: scRNA data preprocessing\
-3-1 ~ 3-4, 3-8-2: TCGA data preprocessing\
-3-5, 3-6-2: CCLE data preprocessing\
-3-6-1: scRNA/CCLE/drug datasets preprocessing\
-3-7-1, 3-7-2: drug dataset preprocessing\
-3-8-1: CCLE/TCGA data preprocessing\
+## Descriptions of the codes in this repository
+1-1 ~ 3-8-1: scRNA/TCGA/CCLE/PRISM datasets preprocessing\
 4-1: Bulk RNA data simulation for Scaden-CA model training/testing\
 4-2-1_4-2-4: Scaden-CA model training/testing\
 4-3: draw model loss figure\
-4-4-1, 4-4-2: CCLE/TCGA data preprocessing\
-4-5-1, 4-5-2: Apply the Scaden-CA model to TCGA tumors\
+4-4-1 ~ 4-7-2: Apply Scaden-CA model to CCLE and TCGA RNA-Seq datasets\
+5-1 ~ 5-7: TCGA/CCLE mutation data preprocessing\
+6-1 ~ 6-7: Get overlapped mutatations between CCLE/TCGA mutation data and the records in oncoKB database\
+7-1 ~ 7-6: Create matrix to record the CGC cancer driver genes which CCLE/TCGA mutation occurred on\
+
 
 
 
