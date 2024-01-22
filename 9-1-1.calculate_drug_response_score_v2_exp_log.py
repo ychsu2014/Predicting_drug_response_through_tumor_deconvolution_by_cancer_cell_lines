@@ -13,9 +13,6 @@ for afile in all_files:
     if "prediction.txt" in afile:
         pred_files.append(afile)
 
-# for skin cancer rerun
-#pred_files = ["SkinCancer_RNA_geneSubset_prediction.txt"]
-
 # cell_line to depmap_ID
 f_ID = open(in_ID)
 lines = f_ID.readlines()
