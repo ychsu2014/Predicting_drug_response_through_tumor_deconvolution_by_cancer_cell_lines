@@ -16,7 +16,7 @@ Large-scale cancer drug sensitivity data have become available for a collection 
 * 4-2-1_4-2-4: Scaden-CA model training/testing\
 * 4-3: draw model loss figure\
 * 4-4-1 ~ 4-7-2: Apply Scaden-CA model to CCLE and TCGA RNA-Seq datasets\
-### Incoporating TCGA/CCLE mutation data for cell line reduction
+### Combining oncoKB and COSMIC data in cell line selection
 * 5-1 ~ 5-7: TCGA/CCLE mutation data preprocessing\
 * 6-1 ~ 6-7: Get overlapped mutatations between CCLE/TCGA mutation data and the records in oncoKB database\
 * 7-1 ~ 7-6: Create matrix to record the CGC cancer driver genes which CCLE/TCGA mutation occurred on\
