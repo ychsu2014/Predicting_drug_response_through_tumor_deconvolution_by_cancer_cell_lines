@@ -1,11 +1,14 @@
 TCGA_path = "/home/CBBI/hsuy1/projects/drugResponse/data/ICIBM_2023/TCGA/processed_data/RNA/by_cancertypes/"
 
+### select representative cell lines that harbor overlapping mutations between TCGA tumors and CCLE cell lines: (1) either in oncoKB or are on COSMIC cancer driver genes
 simu_path = "/home/CBBI/hsuy1/projects/drugResponse/data/ICIBM_2023/greedy_selected_cell_line/simulation_onlyNormalized/oncoKB_CGC/"
 CCC_all_results = "/home/CBBI/hsuy1/projects/drugResponse/data/ICIBM_2023/greedy_selected_cell_line/simulation_onlyNormalized/oncoKB_CGC/CCC_all_results.txt"
 
+### select representative cell lines that harbor overlapping mutations between TCGA tumors and CCLE cell lines: (2) included in oncoKB
 #simu_path = "/home/CBBI/hsuy1/projects/drugResponse/data/ICIBM_2023/greedy_selected_cell_line/simulation_onlyNormalized/oncoKB/"
 #CCC_all_results = "/home/CBBI/hsuy1/projects/drugResponse/data/ICIBM_2023/greedy_selected_cell_line/simulation_onlyNormalized/oncoKB/CCC_all_results.txt"
 
+### select representative cell lines that harbor overlapping mutations between TCGA tumors and CCLE cell lines: (3) actionable targets in oncoKB
 #simu_path = "/home/CBBI/hsuy1/projects/drugResponse/data/ICIBM_2023/greedy_selected_cell_line/simulation_onlyNormalized/oncoKB_actionable_target/"
 #CCC_all_results = "/home/CBBI/hsuy1/projects/drugResponse/data/ICIBM_2023/greedy_selected_cell_line/simulation_onlyNormalized/oncoKB_actionable_target/CCC_all_results.txt"
 
