@@ -25,7 +25,7 @@ for simufile in simu_file_list:
     print(simufile)
     TCGA_txt_file = TCGA_path + simufile.replace("_", "").replace(".h5ad", "_RNA_overlapped_genes.txt")
     # split to training/testing data
-    os.system("python3 4-3.split_to_training_testing.py " + simu_path + " " + processed_simu_path + " " + simufile)
+    os.system("python3 4-.split_to_training_testing.py " + simu_path + " " + processed_simu_path + " " + simufile)
     # reformat testing data from h5ad file to txt file
     #os.system("python3 4-4.reformat_bulk_RNA_data.py " + processed_simu_path + " " + simufile)
     # testing data processing
