@@ -6,7 +6,7 @@ Large-scale cancer drug sensitivity data have become available for a collection 
 Single cell RNA (scRNA) data of cell lines: http://singlecell.broadinstitute.org/single_cell/study/SCP542/pan-cancer-cell-line-heterogeneity \
 The Cancer Genome Atlas (TCGA) RNA, somatic mutation, and phenotypic data：https://xenabrowser.net/datapages/ \
 Cancer Cell Line Encyclopedia (CCLE) RNA data: https://depmap.org/portal/ (2022Q2 version) \
-Profiling Relative Inhibition Simultaneously in Mixtures (PRISM) drug screening dataset: https://depmap.org/repurposing/ \
+Profiling Relative Inhibition Simultaneously in Mixtures (PRISM) drug screening dataset: https://depmap.org/repurposing/
 
 ## Codes description
 1-1 ~ 2-5: scRNA data preprocessing\
