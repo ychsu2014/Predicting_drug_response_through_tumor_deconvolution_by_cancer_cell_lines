@@ -1,4 +1,4 @@
-out_file = "4-9-2.predict_TCGA_cell_line_composition.sh"
+out_file = "4-5-2.predict_TCGA_cell_line_composition.sh"
 model_path = "/home/CBBI/hsuy1/projects/drugResponse/data/ICIBM_2023/scRNA/simulation_onlyNormalized/processed_simulation_data/"
 TCGA_path = "/home/CBBI/hsuy1/projects/drugResponse/data/ICIBM_2023/TCGA/processed_data/RNA/by_cancertypes/"
 
