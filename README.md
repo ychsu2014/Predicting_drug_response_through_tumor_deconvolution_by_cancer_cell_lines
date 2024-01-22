@@ -22,6 +22,10 @@ Large-scale cancer drug sensitivity data have become available for a collection 
 * 7-1 ~ 7-6: Create matrix to record the CGC cancer driver genes which CCLE/TCGA mutation occurred on
 * 8-1 ~ 8-4: Reduce the number of cell lines for Scaden-CA models and assess the model performance
 * 8-5 ~ 8-8-8: Apply the model trained with reduced cell line for lung cancer to TCGA/CCLE lung cancer data
+### Drug response prediction
+* 9-1-1 ~ 9-2-2: Drug reponse prediction for TCGA tumors by using the deconvolution results
+* The "9-3-1_all_mutations" folder: Split TCGA tumors by mutations and perform t-test to compare the drug responses between wild-type and mutants
+* 
 
 
 
