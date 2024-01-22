@@ -1,7 +1,5 @@
-in_path = "/Users/ychsu/Library/CloudStorage/GoogleDrive-ychsu20130517@gmail.com/Other computers/My Laptop/TIGP_bioinformatics/research/UTHSCSA/drugResponse/data/ICIBM_2023/CCLE/RNA/by_cancer/h5ad/"
-#"C:/TIGP_bioinformatics/research/UTHSCSA/drugResponse/data/ICIBM_2023/CCLE/RNA/by_cancer/h5ad/"
-in_idx_path = "/Users/ychsu/Library/CloudStorage/GoogleDrive-ychsu20130517@gmail.com/Other computers/My Laptop/TIGP_bioinformatics/research/UTHSCSA/drugResponse/data/ICIBM_2023/CCLE/RNA/by_cancer/idx_files/"
-#"C:/TIGP_bioinformatics/research/UTHSCSA/drugResponse/data/ICIBM_2023/CCLE/RNA/by_cancer/idx_files/"
+in_path = "C:/TIGP_bioinformatics/research/UTHSCSA/drugResponse/data/ICIBM_2023/CCLE/RNA/by_cancer/h5ad/"
+in_idx_path = "C:/TIGP_bioinformatics/research/UTHSCSA/drugResponse/data/ICIBM_2023/CCLE/RNA/by_cancer/idx_files/"
 
 import os
 import pandas as pd
