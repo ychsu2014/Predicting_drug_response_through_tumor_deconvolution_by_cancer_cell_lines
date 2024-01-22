@@ -9,14 +9,19 @@ Large-scale cancer drug sensitivity data have become available for a collection 
 * PRISM drug screening dataset: https://depmap.org/repurposing/
 
 ## Descriptions of the codes in this repository
-1-1 ~ 3-8-1: scRNA/TCGA/CCLE/PRISM datasets preprocessing\
-4-1: Bulk RNA data simulation for Scaden-CA model training/testing\
-4-2-1_4-2-4: Scaden-CA model training/testing\
-4-3: draw model loss figure\
-4-4-1 ~ 4-7-2: Apply Scaden-CA model to CCLE and TCGA RNA-Seq datasets\
-5-1 ~ 5-7: TCGA/CCLE mutation data preprocessing\
-6-1 ~ 6-7: Get overlapped mutatations between CCLE/TCGA mutation data and the records in oncoKB database\
-7-1 ~ 7-6: Create matrix to record the CGC cancer driver genes which CCLE/TCGA mutation occurred on\
+* Dataset preprocessing
+  * 1-1 ~ 3-8-1: scRNA/TCGA/CCLE/PRISM datasets preprocessing\
+* Scaden-CA model training/testing/validation/application
+  * 4-1: Bulk RNA data simulation for Scaden-CA model training/testing\
+  * 4-2-1_4-2-4: Scaden-CA model training/testing\
+  * 4-3: draw model loss figure\
+  * 4-4-1 ~ 4-7-2: Apply Scaden-CA model to CCLE and TCGA RNA-Seq datasets\
+* Incoporating TCGA/CCLE mutation data for cell line reduction
+  * 5-1 ~ 5-7: TCGA/CCLE mutation data preprocessing\
+  * 6-1 ~ 6-7: Get overlapped mutatations between CCLE/TCGA mutation data and the records in oncoKB database\
+  * 7-1 ~ 7-6: Create matrix to record the CGC cancer driver genes which CCLE/TCGA mutation occurred on\
+  * 8-1 ~ 8-4: Reduce the number of cell lines for Scaden-CA models and assess the model performance
+  * 8-5 ~ 8-8-8: Apply the model trained with reduced cell line for lung cancer to TCGA/CCLE lung cancer data
 
 
 
