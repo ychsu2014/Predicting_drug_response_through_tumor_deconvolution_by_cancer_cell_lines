@@ -1,3 +1,4 @@
+# Code below are modified from the souce codes of the Scaden paper: https://www.science.org/doi/10.1126/sciadv.aba2619 
 import logging
 from scaden.model.architectures import architectures
 #from scaden.model.scaden import Scaden
