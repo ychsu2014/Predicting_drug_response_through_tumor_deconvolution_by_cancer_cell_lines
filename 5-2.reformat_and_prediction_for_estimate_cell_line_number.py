@@ -29,10 +29,10 @@ for simufile in simu_file_list:
     processed_h5ad_full = simu_path + simufile[:-5] + "_processed.h5ad"
     os.system("scaden process " + simufile_full + " " + TCGA_txt_file + " --processed_path " + processed_h5ad_full)
     # data reformat from h5ad to txt
-    os.system("python3 11-2_1.reformat_h5ad_to_txt.py " + simu_path + " " + processed_h5ad)
+    os.system("python3 5-3.reformat_h5ad_to_txt_for_estimate_cell_line_number.py " + simu_path + " " + processed_h5ad)
     processed_txt = simu_path + simufile[:-5] + "_processed.txt"
     predict_result = simu_path + simufile[:-5] + "_prediction.txt"
     # prediction
     os.system("scaden predict --model_dir " + model_folder + " " + processed_txt + " --outname " + predict_result)
     # calculate concordance correlation coefficient
-    os.system("python3 11-2_2.CCC_evaluation_pooledAllForOneDataset.py " + simu_path + " " + simufile + " " + out_result)
+    os.system("python3 5-4.CCC_evaluation_pooledAllForOneDataset.py " + simu_path + " " + simufile + " " + out_result)
