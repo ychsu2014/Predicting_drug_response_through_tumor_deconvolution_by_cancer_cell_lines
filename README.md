@@ -14,7 +14,7 @@ Large-scale cancer drug sensitivity data have become available for a collection 
 ### Scaden-CA model training/testing/validation/application
 * 4-1: Bulk RNA data simulation for Scaden-CA model training/testing
 * 4-2-1_4-2-4: Scaden-CA model training/testing
-* 4-3: draw model loss figure
+* 4-3: draw figures to visualize the loss of the Scaden-CA model
 * 4-4-1 ~ 4-7-2: Apply Scaden-CA model to CCLE and TCGA RNA-Seq datasets
 ### Combining oncoKB and COSMIC data in cell line selection
 * 5-1 ~ 5-7: TCGA/CCLE mutation data preprocessing
@@ -24,8 +24,8 @@ Large-scale cancer drug sensitivity data have become available for a collection 
 * 8-5 ~ 8-8-8: Apply the model trained with reduced cell line for lung cancer to TCGA/CCLE lung cancer data
 ### Drug response prediction
 * 9-1-1 ~ 9-2-2: Drug reponse prediction for TCGA tumors by using the deconvolution results
-* The "9-3-1_all_mutations" folder: Split TCGA tumors by mutations and perform t-test to compare the drug responses between wild-type and mutants
-* 
+* The "9-3-1_all_mutations" folder: Split TCGA tumors by mutation status and perform t-test to compare the drug responses between wild-type and mutants
+* The "9-3-2_all_CGC_genes" folder: Split TCGA tumors by mutation status of CGC cancer driver genes and perform t-test to compare the drug responses between wild-type and mutants
 
 
 
