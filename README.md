@@ -10,7 +10,7 @@ Large-scale cancer drug sensitivity data have become available for a collection 
 
 ## Descriptions of the codes in this repository
 ### Dataset preprocessing
-* 1-1 ~ 3-8-1: scRNA/TCGA/CCLE/PRISM datasets preprocessing
+* 1-1 ~ 3-8-2: scRNA/TCGA/CCLE/PRISM datasets preprocessing
 ### Scaden-CA model training/testing/validation/application
 * 4-1: Bulk RNA data simulation for Scaden-CA model training/testing
 * 4-2-1_4-2-4: Scaden-CA model training/testing
