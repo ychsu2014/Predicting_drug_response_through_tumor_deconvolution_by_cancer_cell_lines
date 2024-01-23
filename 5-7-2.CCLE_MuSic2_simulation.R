@@ -1,3 +1,4 @@
+# Codes below are modified from the source codes of the MuSiC2 paper: https://academic.oup.com/bib/article/23/6/bbac430/6751147
 #argvs <- commandArgs(trailingOnly = TRUE)
 
 # ex. Breast_Cancer
