@@ -26,8 +26,8 @@ Large-scale cancer drug sensitivity data have become available for a collection 
 * 9-1-1 ~ 9-2-2: Drug reponse prediction for TCGA tumors by using the deconvolution results
 * The "9-3-1_all_mutations" folder: Split TCGA tumors by mutation status and perform t-test to compare the drug responses between wild-type and mutants
 * The "9-3-2_all_CGC_genes" folder: Split TCGA tumors by mutation status of CGC cancer driver genes and perform t-test to compare the drug responses between wild-type and mutants
-* 9-4-1 ~ 9-4-4: p-value adjustment for the t-tests of Cancer-Gene-Drug combinations
-* 9-5-1 ~ 9-5-6: p-value adjustment for the t-tests of Cancer-[gene, AA change]-Drug combinations
+* 9-4-1 ~ 9-4-4: p-value adjustment for the t-tests of Cancer-Gene-Drug combinations and visualization
+* 9-5-1 ~ 9-5-6: p-value adjustment for the t-tests of Cancer-[gene, AA change]-Drug combinations and visualization
 
 
 
