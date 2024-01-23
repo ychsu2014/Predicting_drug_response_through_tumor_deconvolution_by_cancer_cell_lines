@@ -11,11 +11,15 @@ Large-scale cancer drug sensitivity data have become available for a collection 
 ## Descriptions of the codes in this repository
 ### Dataset preprocessing
 * 1-1 ~ 3-8-1: scRNA/TCGA/CCLE/PRISM datasets preprocessing
-### Scaden-CA model training/testing/validation/application
+### Scaden-CA model training/testing/validation/application & model assessment
 * 4-1: Bulk RNA data simulation for Scaden-CA model training/testing
 * 4-2-1_4-2-4: Scaden-CA model training/testing
 * 4-3: draw figures to visualize the loss of the Scaden-CA model
-* 4-4-1 ~ 4-7-2: Apply Scaden-CA model to CCLE and TCGA RNA-Seq datasets
+* 4-4-1 ~ 4-4-5: Apply Scaden-CA model to CCLE RNA-Seq datasets
+* 4-5-1 ~ 4-5-4: Apply Scaden-CA model to TCGA RNA-Seq datasets
+* 4-6 (11)
+* 4-7 (13)
+* 4-8 (15)
 ### Combining oncoKB and COSMIC data in cell line selection
 * 5-1 ~ 5-7: TCGA/CCLE mutation data preprocessing
 * 6-1 ~ 6-7: Get overlapped mutatations between CCLE/TCGA mutation data and the records in oncoKB database
@@ -28,6 +32,8 @@ Large-scale cancer drug sensitivity data have become available for a collection 
 * The "9-3-2_all_CGC_genes" folder: Split TCGA tumors by mutation status of CGC cancer driver genes and perform t-test to compare the drug responses between wild-type and mutants
 * 9-4-1 ~ 9-4-4: p-value adjustment for the t-tests of Cancer-Gene-Drug combinations and visualization
 * 9-5-1 ~ 9-5-6: p-value adjustment for the t-tests of Cancer-[gene, AA change]-Drug combinations and visualization
+* 9-6 (14)
+* 9-7 (16)
 
 
 
