@@ -7,6 +7,9 @@ Large-scale cancer drug sensitivity data have become available for a collection 
 * TCGA data：https://xenabrowser.net/datapages/
 * CCLE data: https://depmap.org/portal/ (2022Q2 version)
 * PRISM drug screening dataset: https://depmap.org/repurposing/
+* TCGA clinical data: downloaded by TCGAbiolinks (R/Bioconductor, https://bioconductor.org/packages/release/bioc/html/TCGAbiolinks.html)
+* OncoKB database: https://www.oncokb.org/
+* COSMIC Cancer Gene Census (CGC, v97) website: https://cancer.sanger.ac.uk/census
 
 ## Descriptions of the codes in this repository
 ### Dataset preprocessing
